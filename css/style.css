@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+.box{
+	/* margin: 212px; */
+	background-color: #b89ee6;
+    width: 400px;
+    color: black;
+	margin-top: 55px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 16px 30px;
+	border-radius: 0 189px 0 0;
+	box-shadow: 23px 23px 46px #d1d1d1,
+    -23px -23px 46px #ffffff;
+	}
+
+h1{
+	font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+	width: 82%;
+    border-style: dotted;
+    border-radius: 42px;
+    border-width: 4px;
+}
+.box p{
+	font-size: 18px;
+}
+.container{
+	margin: auto;
+    width: 1200px;
+    display: flex;
+}
+.product{
+    flex-basis: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.green{
+    background-color: #4caf50;
+}
+.yellow{
+    background-color: #ffeb3b;
+}
+h3{
+    font-size: 25px;
+}
+h3 strong{}
+h3 span{
+    font-weight: 100;
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: 21px;
+}
+button{background-color: #86b94a;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    border: 2px solid #86b94a;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+	background-color: transparent;
+	color: #86b94a;
+}
+.product-box{
+	box-shadow: 23px 23px 46px #d1d1d1,
+    -23px -23px 46px #ffffff;
+    border-radius: 19px;
+    padding: 30px;
+}
